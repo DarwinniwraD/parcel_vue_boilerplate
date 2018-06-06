@@ -1,0 +1,29 @@
+{
+  "name": "parcel-vuejs-example",
+  "description": "Simple Vue.js example",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html -p 8080 --open --no-source-maps -d './dist'",
+    "build": "parcel build index.html --no-source-maps -d './build'"
+  },
+  "dependencies": {
+    "vue": "^2.5.10",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.0.0",
+    "autoprefixer": "^8.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-vue": "^2.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^4.4.0",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.2.0",
+    "parcel-plugin-eslint": "^1.0.3",
+    "postcss-modules": "^1.1.0",
+    "typescript": "^2.8.1",
+    "vue-template-compiler": "^2.5.16"
+  }
+}

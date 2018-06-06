@@ -1,0 +1,9 @@
+{
+  "parser": "sugarss",
+  "map": false,
+  "from": "/src/assets",
+  "to": "/dist/css",
+  "plugins": {
+    "autoprefixer": true
+  }
+}
